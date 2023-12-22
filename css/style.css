@@ -2613,7 +2613,7 @@ button,
     grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: 1fr auto 1fr;
     grid-template-rows: 1fr auto 1fr;
-    row-gap: 40px;
+    row-gap: 41px;
     -webkit-column-gap: 35px;
     -moz-column-gap: 35px;
     column-gap: 35px;
@@ -2659,6 +2659,7 @@ button,
   }
 
   .advantages__list-item--main span::before {
+    font-size: 70px;
     margin-bottom: 10px;
   }
 
@@ -2820,6 +2821,7 @@ button,
 
   .footer__container {
     padding-top: 44px;
+    padding-bottom: 44px;
   }
 
   .footer__logo {
@@ -3194,6 +3196,7 @@ button,
   }
 
   .advantages__list-item--main span::before {
+    font-size: 70px;
     margin-bottom: 5px;
     bottom: 8px;
   }
