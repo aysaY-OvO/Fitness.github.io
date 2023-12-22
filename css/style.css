@@ -1054,12 +1054,12 @@ button,
 
 .subscription::after {
   content: "";
-  background: url("../img/images/subscription-desktop.png") no-repeat;
-  width: 287px;
-  height: 430px;
   position: absolute;
+  background: url("../img/images/subscription-decor.png") no-repeat;
+  width: 290px;
+  height: 500px;
   right: 0;
-  bottom: -85px;
+  bottom: -148px;
   z-index: 1;
 }
 
@@ -2449,9 +2449,9 @@ button,
 
   .subscription::after {
     width: 350px;
-    height: 410px;
-    bottom: -87px;
-    background: url("../img/images/subscription-tablet.png") no-repeat;
+    height: 448px;
+    right: 0;
+    bottom: -125px;
   }
 
   .subscription__container {
@@ -2840,13 +2840,6 @@ button,
 
   .swiper-slide::after {
     bottom: 27px;
-  }
-}
-
-@media (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1199px) and (min-resolution: 144dpi), (max-width: 1199px) and (min-resolution: 1.5dppx) {
-  .subscription::after {
-    background: url("../img/images/subscription-tablet@2x.png") no-repeat;
-    background-size: cover;
   }
 }
 
@@ -3578,7 +3571,7 @@ button,
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .subscription::after {
-    background: url("../img/images/subscription-desktop@2x.png") no-repeat;
+    background: url("../img/images/subscription-decor@2x.png") no-repeat;
     background-size: cover;
   }
 }
