@@ -2059,6 +2059,10 @@ button,
   max-width: 800px;
 }
 
+.footer__site-link {
+  max-width: 150px;
+}
+
 .footer__site-list a {
   color: #ffffff;
   font-size: 14px;
@@ -2175,10 +2179,6 @@ button,
 }
 
 .swiper-slide.focus-visible:focus::after {
-  display: none;
-}
-
-.swiper-slide:hover::after {
   display: none;
 }
 
@@ -2507,6 +2507,7 @@ button,
 
   .promo__container {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .promo__poster img {
@@ -2558,7 +2559,7 @@ button,
   }
 
   .trainers__container {
-    padding-bottom: 97px;
+    padding: 8px 100px 97px 100px;
     max-width: 780px;
   }
 
@@ -2771,12 +2772,13 @@ button,
   .contacts__address {
     position: relative;
     right: 15px;
-    padding: 66px 30px 66px;
+    padding: 68px 30px 66px;
     margin: 0 auto;
   }
 
   .contacts__address h2 {
     margin-bottom: 32px;
+    letter-spacing: 1.2px;
   }
 
   .contacts__address p {
@@ -3537,6 +3539,10 @@ button,
 
   .footer a:hover:not(.focus-visible) {
     opacity: 0.5;
+  }
+
+  .swiper-slide:hover:not(.focus-visible)::after {
+    display: none;
   }
 
   .swiper-button-next:hover:not(.focus-visible) use,
