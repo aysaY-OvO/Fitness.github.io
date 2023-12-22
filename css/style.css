@@ -2448,10 +2448,14 @@ button,
   }
 
   .subscription::after {
+    content: "";
+    background: url("../img/images/subscription-tablet.png") no-repeat;
     width: 350px;
     height: 410px;
+    position: absolute;
+    right: 0;
     bottom: -87px;
-    background: url("../img/images/subscription-tablet.png") no-repeat;
+    z-index: 1;
   }
 
   .subscription__container {
@@ -2743,6 +2747,7 @@ button,
   .contacts__container {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .contacts__container h2 {
