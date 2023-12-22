@@ -2448,14 +2448,10 @@ button,
   }
 
   .subscription::after {
-    content: "";
     background: url("../img/images/subscription-tablet.png") no-repeat;
     width: 350px;
     height: 410px;
-    position: absolute;
-    right: 0;
     bottom: -87px;
-    z-index: 1;
   }
 
   .subscription__container {
@@ -3449,6 +3445,12 @@ button,
 
   .footer__site-list {
     max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 840px) and (max-width: 1199px) {
+  .advantages__list {
+    justify-items: center;
   }
 }
 
