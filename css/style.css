@@ -2448,10 +2448,10 @@ button,
   }
 
   .subscription::after {
-    background: url("../img/images/subscription-tablet.png") no-repeat;
     width: 350px;
     height: 410px;
     bottom: -87px;
+    background: url("../img/images/subscription-tablet.png") no-repeat;
   }
 
   .subscription__container {
