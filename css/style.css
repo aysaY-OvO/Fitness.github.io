@@ -2692,7 +2692,7 @@ button,
   }
 
   .advantages__main-number {
-    margin-bottom: 7px;
+    margin-bottom: 13px;
   }
 
   .advantages__main-number h3 {
@@ -2794,7 +2794,7 @@ button,
   }
 
   .contacts__form {
-    padding: 67px 148px 67px;
+    padding: 70px 148px 67px;
     background-color: #102654;
   }
 
@@ -2816,7 +2816,7 @@ button,
   .contacts__address {
     position: relative;
     right: -21px;
-    padding: 69px 20px 57px;
+    padding: 65px 20px 57px;
     margin: 0 auto;
   }
 
@@ -3240,7 +3240,7 @@ button,
   }
 
   .stock__container {
-    padding-top: 61px;
+    padding-top: 57px;
     padding-bottom: 68px;
   }
 
@@ -3413,6 +3413,10 @@ button,
 
   .contacts__content dl::before {
     display: none;
+  }
+
+  .contacts__content dd {
+    margin-bottom: 17px;
   }
 
   .footer__container {
