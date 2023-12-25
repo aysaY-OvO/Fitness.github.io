@@ -2446,7 +2446,7 @@ button,
     width: 266px;
     height: 167px;
     right: 0;
-    bottom: 88px;
+    bottom: 82px;
     margin: 0 auto;
   }
 
@@ -2487,7 +2487,7 @@ button,
     max-width: 530px;
     font-weight: 300;
     letter-spacing: 0;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
 
   .about__text-tablet-hidden {
@@ -2495,7 +2495,7 @@ button,
   }
 
   .subscription__container {
-    padding-top: 100px;
+    padding-top: 105px;
     padding-bottom: 60px;
   }
 
@@ -2694,7 +2694,7 @@ button,
   }
 
   .advantages__main-number {
-    margin-bottom: 6px;
+    margin-bottom: 13px;
   }
 
   .advantages__main-number h3 {
@@ -2836,7 +2836,7 @@ button,
   }
 
   .contacts__value:not(:last-of-type) {
-    margin-bottom: 16px;
+    margin-bottom: 11px;
   }
 
   .contacts__value p {
@@ -2863,7 +2863,7 @@ button,
   }
 
   .footer__container {
-    padding-top: 46px;
+    padding-top: 42px;
     padding-bottom: 44px;
   }
 
@@ -3049,11 +3049,11 @@ button,
   }
 
   .about__text p {
-    margin-bottom: 35px;
+    margin-bottom: 29px;
   }
 
   .subscription__container {
-    padding-top: 64px;
+    padding-top: 66px;
     padding-bottom: 30px;
   }
 
@@ -3109,6 +3109,7 @@ button,
 
   .tabs__price p {
     font-size: 48px;
+    margin-bottom: 0;
   }
 
   .promo__container {
@@ -3127,9 +3128,9 @@ button,
 
   .promo__content p {
     padding-bottom: 0;
-    padding-top: 11px;
+    padding-top: 8px;
     letter-spacing: 0;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .promo__btn {
@@ -3250,7 +3251,7 @@ button,
   }
 
   .stock__container {
-    padding-top: 64px;
+    padding-top: 58px;
     padding-bottom: 68px;
   }
 
@@ -3411,11 +3412,11 @@ button,
   }
 
   .contacts__value:not(:last-of-type) {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   .contacts__value:last-of-type {
-    margin-bottom: 14px;
+    margin-bottom: 9px;
   }
 
   .contacts__content {
@@ -3433,7 +3434,7 @@ button,
   .footer__container {
     padding-top: 44px;
     padding-bottom: 50px;
-    row-gap: 25px;
+    row-gap: 27px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
