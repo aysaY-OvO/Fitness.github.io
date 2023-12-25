@@ -1235,7 +1235,6 @@ button,
 
 .tabs__price {
   position: relative;
-  z-index: 10;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -1245,7 +1244,7 @@ button,
 .tabs__price::before {
   content: attr(data-price);
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   color: rgba(232, 232, 232, 0.48);
   font-size: 100px;
   bottom: -8%;
@@ -1258,6 +1257,7 @@ button,
 .tabs__price p {
   display: block;
   font-size: 60px;
+  position: relative;
   font-weight: 700;
   color: #102654;
   margin: 0;
