@@ -1048,7 +1048,7 @@ button,
   margin-bottom: 0;
 }
 
-.about__text--tablet-hidden p {
+.about__text-tablet-hidden p {
   margin: 0;
 }
 
@@ -2490,7 +2490,7 @@ button,
     margin-bottom: 45px;
   }
 
-  .about__text--tablet-hidden {
+  .about__text-tablet-hidden {
     display: none;
   }
 
