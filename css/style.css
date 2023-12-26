@@ -1542,9 +1542,9 @@ button,
   grid-template-columns: 1fr auto 1fr;
   -ms-grid-rows: auto [last-line];
   grid-template-rows: auto [last-line];
-  -webkit-column-gap: 60px;
-  -moz-column-gap: 60px;
-  column-gap: 60px;
+  -webkit-column-gap: 52px;
+  -moz-column-gap: 52px;
+  column-gap: 52px;
 }
 
 .advantages__list-item {
@@ -1597,7 +1597,7 @@ button,
 
 .advantages__number span {
   position: relative;
-  bottom: 5px;
+  bottom: 0;
   right: 1px;
   font-size: 71px;
   font-weight: 700;
