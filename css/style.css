@@ -950,8 +950,6 @@ button,
 
 .about__video-preview {
   position: relative;
-  background: url("../img/images/video-preview-desktop.jpg") no-repeat;
-  background-size: cover;
 }
 
 .about__video-preview::before {
@@ -1939,7 +1937,7 @@ button,
 }
 
 .contacts__form {
-  padding: 68px 170px 67px 100px;
+  padding: 70px 170px 67px 100px;
 }
 
 .contacts__form h2 {
@@ -2311,6 +2309,20 @@ button,
     }
   }
 */
+
+@media screen and (min-width: 1200px) {
+  .about__video-preview {
+    background: url("../img/images/video-preview-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-width: 1200px) and (min-resolution: 144dpi), screen and (min-width: 1200px) and (min-resolution: 1.5dppx) {
+  .about__video-preview {
+    background: url("../img/images/video-preview-desktop@2x.jpg") no-repeat;
+    background-size: cover;
+  }
+}
 
 @media screen and (min-width: 1400px) {
   .about__video {
@@ -3627,11 +3639,6 @@ button,
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .about__video-preview {
-    background: url("../img/images/video-preview-desktop@2x.jpg") no-repeat;
-    background-size: cover;
-  }
-
   .tabs__content::after {
     background: url("../img/images/subscription-decor@2x.png") no-repeat;
     background-size: cover;
